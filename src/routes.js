@@ -1,8 +1,5 @@
 import { Router } from 'express';
-import { dirname, join } from 'path';
-import { fileURLToPath } from 'url';
 import { view } from './paths.js';
-
 import { upload } from './storage.js';
 
 const router = Router();
